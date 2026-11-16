@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Dental Cuenca | Tu sonrisa en buenas manos</title>
+  <meta name="description" content="Consultorio dental en Cuenca: limpiezas, ortodoncia, implantes, blanqueamiento y urgencias. Pide tu cita por WhatsApp.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== CABECERA ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">🦷 Clínica Dental <strong>Cuenca</strong></a>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu" class="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#" class="btn btn--small js-whatsapp">Pedir cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PORTADA (HERO) ===== -->
+    <section id="inicio" class="hero">
+      <div class="container hero__inner">
+        <p class="hero__tag">Consultorio dental en el centro de Cuenca</p>
+        <h1>Tu sonrisa, en buenas manos</h1>
+        <p class="hero__text">
+          Atención cercana, tecnología moderna y sin esperas.
+          Primera revisión gratuita para nuevos pacientes.
+        </p>
+        <div class="hero__actions">
+          <a href="#" class="btn js-whatsapp">Pedir cita por WhatsApp</a>
+          <a href="#servicios" class="btn btn--outline">Ver servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICIOS ===== -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2 class="section__title">Nuestros servicios</h2>
+        <p class="section__subtitle">Todo lo que necesitas para cuidar tu boca, en un solo lugar.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">✨</div>
+            <h3>Limpieza dental</h3>
+            <p>Eliminamos sarro y manchas para mantener tus encías sanas.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">😁</div>
+            <h3>Ortodoncia</h3>
+            <p>Brackets y alineadores invisibles para niños y adultos.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🦷</div>
+            <h3>Implantes</h3>
+            <p>Recupera las piezas perdidas con resultados naturales y duraderos.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">💎</div>
+            <h3>Blanqueamiento</h3>
+            <p>Una sonrisa más blanca en pocas sesiones y de forma segura.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🧒</div>
+            <h3>Odontopediatría</h3>
+            <p>Cuidamos la salud dental de los más pequeños con paciencia.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🚑</div>
+            <h3>Urgencias</h3>
+            <p>¿Dolor o un diente roto? Escríbenos y te atendemos lo antes posible.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HORARIOS ===== -->
+    <section id="horarios" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Horarios</h2>
+        <p class="section__subtitle">
+          Ahora mismo estamos: <span id="estado" class="status">—</span>
+        </p>
+
+        <table class="schedule">
+          <tbody>
+            <tr data-day="1"><th>Lunes</th><td>9:00 – 14:00<br>16:00 – 20:00</td></tr>
+            <tr data-day="2"><th>Martes</th><td>9:00 – 14:00<br>16:00 – 20:00</td></tr>
+            <tr data-day="3"><th>Miércoles</th><td>9:00 – 14:00<br>16:00 – 20:00</td></tr>
+            <tr data-day="4"><th>Jueves</th><td>9:00 – 14:00<br>16:00 – 20:00</td></tr>
+            <tr data-day="5"><th>Viernes</th><td>9:00 – 15:00</td></tr>
+            <tr data-day="6"><th>Sábado</th><td>10:00 – 13:00</td></tr>
+            <tr data-day="0"><th>Domingo</th><td>Cerrado</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== UBICACIÓN ===== -->
+    <section id="ubicacion" class="section">
+      <div class="container location">
+        <div class="location__info">
+          <h2 class="section__title">Dónde estamos</h2>
+          <p><strong>Dirección:</strong><br>Calle Carretería, 1 · 16002 Cuenca</p>
+          <p><strong>Teléfono:</strong><br><a href="tel:+34600000000">600 000 000</a></p>
+          <p><strong>Email:</strong><br><a href="mailto:hola@clinicadentalcuenca.es">hola@clinicadentalcuenca.es</a></p>
+          <a class="btn btn--outline"
+             href="https://www.google.com/maps/search/?api=1&query=Calle+Carreteria+1+Cuenca"
+             target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+        <div class="location__map">
+          <iframe
+            title="Mapa de la clínica"
+            src="https://maps.google.com/maps?q=Calle%20Carreteria%201%2C%20Cuenca&z=16&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Clínica Dental Cuenca · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- ===== BOTÓN FLOTANTE DE WHATSAPP ===== -->
+  <a href="#" class="whatsapp-float js-whatsapp" aria-label="Escríbenos por WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.5L3 29l6.7-1.7c1.9 1 4.1 1.6 6.3 1.6 7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.7c-2 0-3.9-.5-5.6-1.5l-.4-.2-4 1 1.1-3.9-.3-.4C5.8 20 5.3 18 5.3 16 5.3 10.1 10.1 5.3 16 5.3S26.7 10.1 26.7 16 21.9 26.7 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.7-.4z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
